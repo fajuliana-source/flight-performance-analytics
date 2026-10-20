@@ -8,8 +8,8 @@
 ---
 
 ## 1. Project Overview
+![Main Flight Performance Analytics Dashboard](./flight_performance_dasboard.png)
 
-![Navigation Bar Landing Page](./Flight_navigation_bar.png)
 
 This project presents a commercial performance and revenue analysis across 375 flight operations using Microsoft Excel and Power Query.
 
@@ -17,7 +17,6 @@ To deliver an interactive, app-like user experience, the workbook features an **
 
 The analytical dashboard evaluates commercial flight yield across seat classes (*Premium Economy, First Class, Business, Economy*), booking sources (*Airport Desk, Travel Agency, Online, Mobile App*), passenger age demographics, and operational flight categories (*Cargo, Charter, Domestic, International*).
 
-![Main Flight Performance Analytics Dashboard](./flight_performance_dashboard.png)
 
 ---
 
@@ -96,8 +95,10 @@ The analytical methodology followed a structured 3-phase workflow focused on use
 The complete workbook and visual assets are structured as follows:
 
 * **Excel Workbook:** [`Flight_Performance_Analytics.xlsx`](./Flight_Performance_Analytics.xlsx) *(Contains navigation landing page, raw data, pivot engine, and main dashboard)*
-* **Main Dashboard Image:** ![`Flight_Performance_Analytics_Dashboard.png`](./flight_performance_dashboard.png)
-* **Landing Page Image:** [`Navigation_Landing_Page.png`](./Flight_navigation_bar.png)
+
+* **Landing Page Image:** ![`Navigation_Landing_Page.png`](./Flight_navigation_bar.png)
+
+* **Main Dashboard Image:** ![`Flight_Performance_Analytics_Dashboard.png`](./flight_performance_dasboard.png)
 
 ### Dashboard Visual Architecture & Design Notes
 * **Top Metric Bar:** 4 KPI summary cards tracking total flights (375), average baggage weight (24.66 kg), gross revenue ($36.9M), and average passenger age (45 years).
